@@ -42,8 +42,7 @@ A screenshot of the Console-Finances project is included to provide a visual rep
 
 The GitHub repository for the Console-Finances project is meticulously organized, showcasing adherence to best practices in coding and documentation. The README file and descriptive commit messages provide clear insights into the project's functionality and its development stages.
 
-Please see the [Link to the Console-Finances project repo on GitHub]
-
+Please see the [Link to the Console-Finances project repo on GitHub](https://github.com/Natt5/Console-Finances)
 
 ## Credits
 
