@@ -31,7 +31,7 @@ To use the Console-Finances application, please load the HTML file in a web brow
 
 The Console-Finances project is currently deployed and available for viewing on GitHub Pages. This deployment demonstrates how I've applied my JavaScript skills to create an interactive and functional financial analysis tool.
 
-Please see the [Link to the deployed Console-Finances page]
+Please see the [Link to the deployed Console-Finances page](https://natt5.github.io/Console-Finances/)
 
 A screenshot of the Console-Finances project is included to provide a visual representation of the project's functionality:
 
