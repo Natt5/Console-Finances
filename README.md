@@ -35,7 +35,7 @@ Please see the [Link to the deployed Console-Finances page]
 
 A screenshot of the Console-Finances project is included to provide a visual representation of the project's functionality:
 
-[Screenshot of my current Console-Finances project]
+![Screenshot of the Console-Finances Project](/JS%20Console-Finances%20screenshot.png)
 
 
 ### GitHub Repository
