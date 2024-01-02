@@ -50,6 +50,12 @@ This project was developed with reference to various resources, including:
 
 Guidance on crafting professional READMEs from the Coding Boot Camp. [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide).
 
+JavaScript tutorials and documentation from W3Schools. [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/).
+
+Comprehensive JavaScript documentation from Mozilla Developer Network (MDN). [MDN JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+
+The "JavaScript Full Course (2023) - Beginner to Pro" video tutorial by SuperSimpleDev on YouTube. [JavaScript Full Course Video](https://www.youtube.com/watch?v=SBmSRK3feww).
+
 
 ## Licence
 
