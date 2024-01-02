@@ -86,4 +86,52 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099],
   ];
-  
+
+// Tasks:
+
+// 1. The total number of months included in the dataset:
+
+var totalMonths = finances.length;
+
+// 2. The net total amount of Profit/Losses over the entire period.
+
+var totalProfitLoss = finances.reduce((total, month) => total + month[1], 0);
+
+// 3. The average of the **changes** in Profit/Losses over the entire period.
+
+var totalChange = 0;
+for (let i = 1; i < finances.length; i++) {
+    totalChange += finances[i][1] - finances[i - 1][1];
+}
+var averageChange = totalChange / (finances.length - 1);
+
+// 4. The greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
+
+
+var greatestIncrease = ['', 0];
+for (let i = 1; i < finances.length; i++) {
+    let change = finances[i][1] - finances[i - 1][1];
+    if (change > greatestIncrease[1]) {
+        greatestIncrease = [finances[i][0], change];
+    }
+}
+
+// 5. The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
+
+var greatestDecrease = ['', 0];
+for (let i = 1; i < finances.length; i++) {
+    let change = finances[i][1] - finances[i - 1][1];
+    if (change < greatestDecrease[1]) {
+        greatestDecrease = [finances[i][0], change];
+    }
+}
+
+// Printed console here:
+
+console.log("Financial Analysis");
+console.log("----------------");
+console.log("Total Months:", totalMonths);
+console.log("Total: $" + totalProfitLoss.toLocaleString());
+console.log("Average Change: $" + averageChange.toFixed(2));
+console.log("Greatest Increase in Profits/Losses:", greatestIncrease[0], "($" + greatestIncrease[1].toLocaleString() + ")");
+console.log("Greatest Decrease in Profits/Losses:", greatestDecrease[0], "($" + greatestDecrease[1].toLocaleString() + ")");
